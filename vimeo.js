@@ -1,13 +1,32 @@
-$(document).ready(function(){
-	// Add minus icon for collapse element which is open by default
-	$(".collapse.show").each(function(){
-		$(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
-	});
-	
-	// Toggle plus minus icon on show hide of collapse element
-	$(".collapse").on('show.bs.collapse', function(){
-		$(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-	}).on('hide.bs.collapse', function(){
-		$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
-	});
-});
+function checkScroll(){
+    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+    if($(window).scrollTop() > startY){
+        $('.navbar').addClass("scrolled");
+    }else{
+        $('.navbar').removeClass("scrolled");
+    }
+}
+
+if($('.navbar').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+}
+
+function deferVideo() {
+
+    //defer html5 video loading
+  $("video source").each(function() {
+    var sourceFile = $(this).attr("data-src");
+    $(this).attr("src", sourceFile);
+    var video = this.parentElement;
+    video.load();
+    // uncomment if video is not autoplay
+    //video.play();
+  });
+
+}
+window.onload = deferVideo;
+
+
