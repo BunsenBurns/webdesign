@@ -33,11 +33,11 @@
 #navlink {
     color: #acacac;
     transition: color 0.5s ease-in-out;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 #navlinkactive {
   color: white;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .txtLg {
