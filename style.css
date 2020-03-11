@@ -1,0 +1,213 @@
+ html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 11rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.demo {
+  margin: 0 auto;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+#main-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top:1rem;
+    height: 11rem;
+    background-color: rgb(68, 78, 104);
+    text-align: center;
+  }
+  #main-footer p {
+    color: white;
+  }
+/* Trick */
+body{ 
+  display:flex; 
+  flex-direction:column; 
+}
+
+footer{
+  margin-top:auto; 
+}
+ 
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	padding: 1rem 4rem;
+  float: left;
+  width: 25rem;
+	border-radius: 10px 10px 0 0;
+  font-family:'Roboto Condensed', sans-serif;
+	font-size: 1.5rem;
+  color: #FFF;
+  text-align: center;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #EF6F6C;
+	border-bottom: 5px solid #efb16c;
+
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+.action-button:hover
+{
+  color: white;
+  background-color: rgb(207, 85, 83);
+}
+#nounderline {
+  text-decoration: none !important
+}
+.accordion .fa{
+    margin-right: 0.5rem;
+}
+
+.jumbotron {
+     background-image: url(BG3.jpg); 
+     background-color: rgb(126, 175, 207);
+     background-repeat:no-repeat; 
+     background-size: cover;
+     background-position-y: -250px;
+     background-position-x: 200px;
+}
+
+.footerButton {
+  color:white;
+  transition: color 0.25s ease-in-out;
+}
+.footerButton:hover {
+  color:rgb(238, 104, 155);
+}
+#headingOne {
+    display: block;
+    background-color: #4B3F72;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #headingOne:hover {
+    background: #723f66;
+  }
+  #headingTwo {
+    display: block;
+    background-color: #EF6F6C;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #headingTwo:hover {
+    background: #efb16c;
+  }
+  #headingThree {
+    display: block;
+    background-color: #4B3F72;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #headingThree:hover {
+    background: #723f66;
+  }
+  #headingFour {
+    display: block;
+    background-color: #30343F;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #headingFour:hover {
+    background: #51586a;
+  }
+
+#navlink {
+    color: #acacac;
+    transition: color 0.5s ease-in-out;
+    font-family: 'Cairo', sans-serif;
+}
+#navlinkactive {
+  color: white;
+  font-family: 'Cairo', sans-serif;
+}
+
+.iconLg {
+    font-size: 2.5rem;
+}
+.txtLg {
+    font-size: 2rem;
+}
+#navlink:hover {
+    color: white;
+}
+
+#navlink:active {
+    color:white;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portrait {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video {
+    opacity:1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.video:hover {
+    opacity:0.8; 
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+     
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    
