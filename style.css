@@ -16,7 +16,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url() black no-repeat center center scroll;
+    background: url(placebackground.JPG) black no-repeat center center scroll;
   }
   header video {
     display: none;
