@@ -16,7 +16,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url(placebackground.JPG) black no-repeat center center scroll;
+    background: url() black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -117,7 +117,7 @@ figure.snip1105 h33 {
   right: 10%;
   background-color: rgba(204, 202, 202,0.1);
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   padding: 12px 12px;
   margin: 0;
 top:auto;
@@ -338,6 +338,20 @@ figure.snip1105.hover:before {
     animation: swing 0.6s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
+}
+
+figure.snip1105 #hover-blur {
+  opacity:1;
+  filter: blur(0);
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+figure.snip1105:hover #hover-blur {
+  filter: blur(1);
+  opacity:0;
 }
 */
 .glitch {
