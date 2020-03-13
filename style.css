@@ -102,10 +102,10 @@ figure.snip1105 figcaption {
     padding: 5rem 3rem;
     border-radius: 2em;
     top: 7rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: bolder;
     text-transform:uppercase;
-    line-height:2.0rem;
+    line-height:3.0rem;
 }
 
 figure.snip1105 h33 {
@@ -120,6 +120,34 @@ figure.snip1105 h33 {
   top: 0%;
   opacity: 0
 }
+
+@media only screen and (max-width: 1600px) {
+  .imgHeaderText {
+    font-size: 3rem;
+    line-height:2.5rem;
+}
+@media only screen and (max-width: 1500px) {
+  figure.snip1105 {
+    height:15rem;
+  }
+  .imgHeaderText {
+    top: 2rem;
+    padding: 2rem 1rem;
+}
+}
+@media only screen and (max-width: 1200px) {
+  figure.snip1105 {
+    height:10rem;
+  }
+  .imgHeaderText {
+    top: 1.5rem;
+
+    font-size:2.5rem;
+    
+}
+}
+
+}
 /* @media only screen and (max-width: 1800px) {
   figure.snip1105 h33 { 
     font-size: 0.8rem;
@@ -132,26 +160,7 @@ figure.snip1105 h33 {
     top: -0.5 rem;
   }
 }
-@media only screen and (max-width: 1300px) {
-  figure.snip1105 {
-    height: 15em;
-  }
-  figure.snip1105 h10 {
-    font-size: 1rem;
-  }
-  figure.snip1105 h33 { 
-    font-size: 0.6rem;
-    color: black;
-    top: -1.5 rem;
-  }
-  #smallerheight {
-    height: 7rem;
-  }
-  #smallerheight h10 {
-    font-size: 0.8rem;
-    padding: 1rem 1rem;
-  }
-}
+
 
 
 @media only screen and (max-width: 1000px) {
