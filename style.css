@@ -100,7 +100,7 @@ figure.snip1105 figcaption {
     right: 5%;
     padding: 5rem 3rem;
     border-radius: 2em;
-    top: 7rem;
+    position: bottom;
     font-size: 3.5rem;
     font-weight: bolder;
     text-transform:uppercase;
@@ -113,22 +113,24 @@ figure.snip1105 h33 {
   -webkit-transition: all 0.75s ease-in-out;
   transition: all 0.75s ease-in-out;
   position: absolute;
+  bottom:10rem;
+
   left: 10%;
   right: 10%;
   background-color: rgba(204, 202, 202,0.1);
   color: white;
-  font-size: 1.45rem;
+  font-size: 1.30rem;
   padding: 12px 12px;
   margin: 0;
-top:auto;
+
   opacity: 0;
-  z-index:5;
+  z-index:15;
 }
 
 figure.snip1105:hover h33 {
-  -webkit-transform: translate(0%, 10%);
+  -webkit-transform: translate(0%, -10%);
   opacity: 1;
-  transform:translate(0%, 10%);
+  transform:translate(0%, -10%);
 }
 
 @media only screen and (max-width: 1600px) {
@@ -343,15 +345,18 @@ figure.snip1105.hover:before {
 figure.snip1105 #hover-blur {
   opacity:1;
   filter: blur(0);
-  -webkit-transition: all 0.6s ease-out;
-  -moz-transition: all 0.6s ease-out;
-  -o-transition: all 0.6s ease-out;
-  -ms-transition: all 0.6s ease-out;
-  transition: all 0.6s ease-out;
+  transition: all 1.1s ease-in-out; opacity:0.9; background-image: url(BG1.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover; width:100%; height:100%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 figure.snip1105:hover #hover-blur {
-  filter: blur(1);
-  opacity:0;
+  filter: blur(0.5rem);
+  opacity:0.9;
 }
 */
 .glitch {
@@ -368,19 +373,19 @@ figure.snip1105:hover #hover-blur {
   clip: rect(0, 0, 0, 0);
   }
   .glitch:before {
-  left: -1px;
-  text-shadow: 1px 0 rgba(236, 25, 190, 0.7);
+  left: -2px;
+  text-shadow: 2px 0 rgba(236, 25, 190, 0.7);
   }
   .glitch:after {
-  left: 1px;
-  text-shadow: -1px 0 rgba(0, 0, 255, 0.7);
+  left: 2px;
+  text-shadow: -2px 0 rgba(0, 0, 255, 0.7);
   }
   .glitch:hover:before {
-  text-shadow: 4px 0 rgba(236, 25, 190, 0.7);
+  text-shadow: 3px 0 rgba(236, 25, 190, 0.7);
   animation: glitch-loop-1 0.2s infinite ease-in-out alternate-reverse;
   }
   .glitch:hover:after {
-  text-shadow: -5px 0 rgba(0, 0, 255, 0.7);
+  text-shadow: -4px 0 rgba(0, 0, 255, 0.7);
   animation: glitch-loop-2 0.2s  linear normal;
   }
 
@@ -444,15 +449,17 @@ figure.snip1105:hover #hover-blur {
     opacity:1;
     }
     25% {
-    opacity:0;
+ 
+    color:rgb(159, 158, 192);
     }
     50% {
-    
+
+      color:rgb(192, 158, 181);
     }
     75% {
-    opacity:0.7;
+    transform: translate(0,-4rem)
     }
     100% {
-    opacity:0;
+    transform: translate(0,-4rem)
     }
     }
