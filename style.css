@@ -126,8 +126,8 @@ figure.snip1105 figcaption {
 }
 
 .imgHeaderText {
-  -webkit-transition: all 0.1s linear !important;
-  transition: all 0.1s linear !important;
+  -webkit-transition: all 0.3s linear !important;
+  transition: all 0.3s linear !important;
     color:white;
     text-shadow: 0.2vh 0.2vh 0vh #2c2c2c;
     font-family: 'Roboto Condensed',sans-serif;
@@ -143,7 +143,6 @@ figure.snip1105 figcaption {
     line-height:3.0rem;
     z-index:10;
     height:100%;
-
 }
 
 figure.snip1105 h33 {
@@ -158,14 +157,14 @@ figure.snip1105 h33 {
   font-size: 1.30rem;
   padding: 12px 12px;
   margin: 0;
-
   opacity: 0;
   z-index:15;
 }
 
 figure.snip1105:hover .imgHeaderText {
-  opacity: 0;
-
+  opacity: 0.5;
+  font-size: 2rem;
+  transform:translate(0%, -5%);
 }
 
 
@@ -182,9 +181,14 @@ figure.snip1105:hover h33 {
 
 }
 figure.snip1105 h33 {
-  top:3rem;
-  font-size: 0.6rem;
+  top:10rem;
+  font-size: 1.25rem;
 
+}
+figure.snip1105:hover .imgHeaderText {
+  font-size: 2.0rem;
+  transform:translate(0%, -5%);
+}
 }
 
 @media only screen and (max-width: 1500px) {
@@ -197,13 +201,16 @@ figure.snip1105 h33 {
 }
 figure.snip1105 h33 {
 
-    top:3rem;
+    top:7rem;
     font-size: 0.8rem;
   
   }
+  figure.snip1105:hover .imgHeaderText {
+    font-size: 1.5rem;
+    transform:translate(0%, -10%);
+  }
 }
 
-}
 @media only screen and (max-width: 1200px) {
   figure.snip1105 {
     height:8rem;
@@ -222,7 +229,10 @@ figure.snip1105 h33 {
     top:2rem;
     font-size: 0.8rem;
   }
-
+  figure.snip1105:hover .imgHeaderText {
+    font-size: 3.5rem;
+    transform:translate(0%, -10%);
+  }
 }
 }
 /* @media only screen and (max-width: 1800px) {
@@ -466,21 +476,21 @@ figure.snip1105:hover #hover-blur3 {
   .glitch:before, .glitch:after {
   content: attr(data-text);
   position: absolute;
-  top: 5;
+  top: 3;
   width: 100%;
   background: black;
   clip: rect(0, 0, 0, 0);
   }
   .glitch:before {
-  left: -2px;
-  text-shadow: 2px 0 rgba(236, 25, 190, 0.7);
+  left: -3px;
+  text-shadow: 3px 0 rgba(236, 25, 190, 0.7);
   }
   .glitch:after {
   left: 2px;
-  text-shadow: -2px 0 rgba(0, 0, 255, 0.7);
+  text-shadow: -3px 0 rgba(0, 0, 255, 0.7);
   }
   .glitch:hover:before {
-  text-shadow: 3px 0 rgba(236, 25, 190, 0.7);
+  text-shadow: 4px 0 rgba(236, 25, 190, 0.7);
   animation: glitch-loop-1 0.2s infinite ease-in-out alternate-reverse;
   }
   .glitch:hover:after {
