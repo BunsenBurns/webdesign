@@ -126,6 +126,8 @@ figure.snip1105 figcaption {
 }
 
 .imgHeaderText {
+  -webkit-transition: all 0.1s linear !important;
+  transition: all 0.1s linear !important;
     color:white;
     text-shadow: 0.2vh 0.2vh 0vh #2c2c2c;
     font-family: 'Roboto Condensed',sans-serif;
@@ -161,6 +163,12 @@ figure.snip1105 h33 {
   z-index:15;
 }
 
+figure.snip1105:hover .imgHeaderText {
+  opacity: 0;
+
+}
+
+
 figure.snip1105:hover h33 {
   -webkit-transform: translate(0%, -10%);
   opacity: 1;
@@ -174,8 +182,8 @@ figure.snip1105:hover h33 {
 
 }
 figure.snip1105 h33 {
-
-  font-size: 1.25rem;
+  top:3rem;
+  font-size: 0.6rem;
 
 }
 
@@ -189,17 +197,19 @@ figure.snip1105 h33 {
 }
 figure.snip1105 h33 {
 
-  font-size: 1.00rem;
-
+    top:3rem;
+    font-size: 0.8rem;
+  
+  }
 }
 
 }
 @media only screen and (max-width: 1200px) {
   figure.snip1105 {
-    height:10rem;
+    height:8rem;
   }
   .imgHeaderText {
-    top: 1.5rem;
+    top: 0.8rem;
 
     font-size:2.5rem;
     
@@ -209,8 +219,8 @@ figure.snip1105 h33 {
 @media only screen and (max-width: 1000px) {
   figure.snip1105 h33 {
 
-    font-size: 0.75rem;
-  
+    top:2rem;
+    font-size: 0.8rem;
   }
 
 }
@@ -478,15 +488,7 @@ figure.snip1105:hover #hover-blur3 {
   animation: glitch-loop-2 0.2s  linear normal;
   }
 
-  .glitch-fade {
-    opacity:1;
-  }
-  figure.snip1105:hover .glitch-fade {
-    opacity: 0.2;
-    -webkit-transform: translate(0%, -50%);
 
-    transform:translate(0%, -50%);
-  }
 
 
 
