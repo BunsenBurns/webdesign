@@ -482,8 +482,10 @@ figure.snip1105:hover #hover-blur3 {
     opacity:1;
   }
   figure.snip1105:hover .glitch-fade {
-    animation: glitch-fade 0.5s;
-    opacity:0;
+    opacity: 0.2;
+    -webkit-transform: translate(0%, -50%);
+
+    transform:translate(0%, -50%);
   }
 
 
