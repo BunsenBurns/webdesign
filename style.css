@@ -1,3 +1,37 @@
+/* Footer */
+#main-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  height: 11rem;
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+}
+#main-footer p {
+  color: white;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 11rem; //height of the footer
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+} 
+.footerButton {
+  color:white;
+  transition: color 0.25s ease-in-out;
+}
+.footerButton:hover {
+  color:rgb(238, 104, 220);
+}
+
+/* End Footer */
+
 header {
  
 }
@@ -67,6 +101,8 @@ figure.snip1105 {
   overflow: hidden;
   height: 30rem;
   text-align: center;
+  background-color: black;
+  border-style: none !important; 
 }
 
 
@@ -107,6 +143,7 @@ figure.snip1105 figcaption {
     line-height:3.0rem;
     z-index:10;
     height:100%;
+
 }
 
 figure.snip1105 h33 {
@@ -342,9 +379,12 @@ figure.snip1105.hover:before {
     animation-iteration-count: 1;
 }
 
+/* Various Hover-Blurs With Backgrounds */ 
 figure.snip1105 #hover-blur {
   opacity:1;
   filter: blur(0);
+ 
+  background-color:black;
   transition: all 1.1s ease-in-out; opacity:0.9; background-image: url(BG1.jpg);
                     background-repeat: no-repeat;
                     background-size: cover; width:100%; height:100%;
@@ -355,9 +395,61 @@ figure.snip1105 #hover-blur {
   transition: all 0.2s ease-out;
 }
 figure.snip1105:hover #hover-blur {
-  filter: blur(0.5rem);
+  filter: blur(0.2rem);
   opacity:0.9;
 }
+figure.snip1105 #hover-blur2 {
+  opacity:1;
+  filter: blur(0);
+ 
+  background-color:black;
+  transition: all 1.1s ease-in-out; opacity:0.9; background-image: url(BG2.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover; width:100%; height:100%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+figure.snip1105:hover #hover-blur2 {
+  filter: blur(0.2rem);
+  opacity:0.9;
+}
+figure.snip1105 #hover-blur3 {
+  opacity:1;
+  filter: blur(0);
+ 
+  background-color:black;
+  transition: all 1.1s ease-in-out; opacity:0.9; background-image: url(BG3.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover; width:100%; height:100%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+figure.snip1105:hover #hover-blur3 {
+  filter: blur(0.2rem);
+  opacity:0.9;
+}
+/* End various hover-blurs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 */
 .glitch {
 

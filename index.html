@@ -56,7 +56,7 @@
 
 <!--Begin Second Row,Jumbotron--> 
 
-<header class="border-bottom" style=" position: relative;
+<header style=" position: relative;
 height: 100vh;
 min-height: 25rem;
 width: 100%;
@@ -80,7 +80,7 @@ overflow: hidden;">
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);" playsinline="playsinline"  controls="true" autoplay="autoplay" muted="muted" loop="loop">
+  transform: translateX(-50%) translateY(-50%);" playsinline="playsinline"  id="v-control" width="100%" autoplay="autoplay" loop muted controls="true" autoplay="autoplay" muted="muted" loop="loop">
     <source src="JumboVid1.mp4" type="video/mp4">
       <source src="JumboVid1.webm" type="video/mp4">
         <source src="JumboVid1.ogv" type="video/mp4">
@@ -100,10 +100,10 @@ overflow: hidden;">
 
  
   <!--Begin Third Row, Page Content-->
-<div class="container-fluid">
+  <div class="container-fluid">
 <div class="row" style="background-image:linear-gradient(black,rgb(53, 53, 53))">
   <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
-    <div class="swing"><figure class="snip1105 rounded">
+    <div class="swing"><figure class="snip1105">
                     <img id="hover-blur">
                     <figcaption>
                       <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="WHO I AM">Who I Am</h1>
@@ -113,12 +113,10 @@ overflow: hidden;">
                   </figure></a>
                     </figcaption>            
                   </figure></div></div>
-  <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-0 mb-0">
-    <div class="swing"> <figure class="snip1105 bg1 shadow-sm rounded">
-                    <img style="transition: all 1.1s ease-in-out; opacity:0.9; background-image: url(BG3.jpg);
-                    background-repeat: no-repeat;
-                    background-size: cover; width:100%; height:100%;">
-                    <figcaption>
+                  <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
+                    <div class="swing"><figure class="snip1105">
+                                    <img id="hover-blur2">
+                                    <figcaption>
                       <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="WHAT I DO">WHAT I DO</h1>
                       <h33 class="shadow-sm">Using HTML5/CSS3/JavaScript, I develop responsive sites under the Bootstrap 4 framework. I will work with you from the start to design a site from scratch based on your ideas.</h33>
 
@@ -127,12 +125,10 @@ overflow: hidden;">
                   </figure></a>
                     </figcaption>            
                   </figure></div></div>
-<div class="col-xl-4 col-lg-12 col-m-12 mx-0 mt-xl-3 mt-lg-0 mt-0">
-<div class="swing"><figure class="snip1105 bg1 shadow-sm rounded">
-                <img style="transition: all 1.1s ease-in-out; opacity:0.9; background-image: url(BG2.jpg);
-                background-repeat: no-repeat;
-                background-size: cover; width:100%; height:100%;">
-                <figcaption>
+                  <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
+                    <div class="swing"><figure class="snip1105">
+                                    <img id="hover-blur3">
+                                    <figcaption>
                   <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="MAKE A MARK">MAKE A MARK</h1>
                   <h33 class="shadow-sm">A website sends a message to your customers of competency.<br>
                   Contact me</a> to make your mark today.</h33>
@@ -142,9 +138,36 @@ overflow: hidden;">
                 </figcaption>            
               </figure></div></div>
   </div>
+
+<div id="main-footer" class="mx-0">>
+  <div class="row pb-3" style="background-color: rgb(20, 20, 20);">
+    <div class="col-12"> 
+    
+      <h5 class="font-weight-bold text-white text-uppercase">Let's Talk</h5>
+
+      <ul class="list-unstyled">
+        <li>
+          <p>
+            <a href="mailto:tylopez@umich.edu" class="footerButton"><i class="fas fa-envelope mr-3"></i>tylopez@umich.edu</p></a>
+        </li>
+        <li>
+          <p>
+            <i class="fas fa-phone mr-3"></i>(989) 964-8982</p>
+        </li>
+      </ul>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/tylerlopez/" style="font-size:1.25rem;" class="px-1 footerButton"><i class="fab fa-linkedin-in"></i></a>
+      <!-- FaceBook -->
+      <a href="https://discord.gg/udgmdRn"  style="font-size:1.25rem;" class="px-1 footerButton"><i class="fab fa-discord"></i>
+
+      </a></li>
+  
+    </div>
+
+
 </div>
 <!--End Container Div Below-->
-</div>
+</div></div>
 <!--Import Remaining Scripts-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="vimeo.js"></script>
