@@ -148,8 +148,7 @@ figure.snip1105 h33 {
   -webkit-transition: all 0.75s ease-in-out;
   transition: all 0.75s ease-in-out;
   position: absolute;
-  bottom:10rem;
-
+  top:10rem;
   left: 10%;
   right: 10%;
   background-color: rgba(204, 202, 202,0.1);
@@ -534,22 +533,3 @@ figure.snip1105:hover #hover-blur3 {
   }
   }
 
-  @keyframes glitch-fade {
-    0% {
-    opacity:1;
-    }
-    25% {
- 
-    color:rgb(159, 158, 192);
-    }
-    50% {
-
-      color:rgb(192, 158, 181);
-    }
-    75% {
-    transform: translate(0,-4rem)
-    }
-    100% {
-    transform: translate(0,-4rem)
-    }
-    }
