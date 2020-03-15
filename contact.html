@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/84f14bd32c.js" crossorigin="anonymous"></script>
   <!--Link Style Sheets-->
   <link href="style.css" rel="stylesheet" type="text/css" >
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap.css" type="text/css" >
   <!--Link Script-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -68,18 +68,18 @@
       <form action="https://formspree.io/xoqlelro" method="POST" id="contact-form" style="z-index:5;">
         <div class="form-group center-block">
             <label for="inputName" class="buttonText footerButton">Name</label>
-            <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name"/>
+            <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name" required/>
         </div>
       <div class="form-group center-block">
             <label for="inputEmail"class="buttonText footerButton">E-MAIL</label>
-            <input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email"/>
+            <input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email" required/>
         </div>
       <div class="form-group center-block">
         <label for="inputMessage" class="buttonText footerButton">Message</label>
         <textarea id="inputMessage" class="form-control contact-input" rows="3" placeholder="Leave a Message" name="message"></textarea>
       </div>
       <div class="text-center">
-            <button class="btn btn-default btn-secondary" type="submit" value="Send">Submit</button>
+            <button class="btn btn-default btn-primary buttonText" type="submit" value="Send">Submit</button>
       <div class="alert alert-danger center-block submit-fail display-none">Please fill in all form fields<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
       <div class="alert alert-success center-block submit-success display-none">Thanks for stopping to say Hello!<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
         </div>
