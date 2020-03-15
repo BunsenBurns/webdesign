@@ -1,3 +1,6 @@
+/* Form */ .display-none {
+  display: none;
+} /* Form End */
 /* Footer */
 * {
   box-sizing: border-box;
