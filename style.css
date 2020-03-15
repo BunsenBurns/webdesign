@@ -34,7 +34,18 @@
   color:rgb(238, 104, 155);
 }
 /* End Footer */
-
+/* Blinking Animation for Contact */ 
+.blinking{
+  animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: []purple;    }
+  49%{    color: purple; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: purple;    }
+}
+/* End Blinking Animation for Contact */
 header {
  
 }
