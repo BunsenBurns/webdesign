@@ -14,7 +14,7 @@
 
 /* Form End */
 .phoneBackground {
-  background-color:black;
+
 }
 /* Footer */
 
@@ -287,6 +287,13 @@ figure.snip1105 h33 {
     top:3rem;
     font-size: 0.7rem;
   
+  }
+  .phoneBackground {
+    background-color:black; 
+    opacity:1.0;
+  }
+  .buttonText {
+    font-size: 1rem;
   }
 }
 }
