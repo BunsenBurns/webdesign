@@ -93,7 +93,7 @@ header .overlay {
 
 .navbar.scrolled {
   background: rgb(68, 68, 68); /* IE */
-  background: rgba(0, 0, 0, 0.78); /* NON-IE */
+  background: rgba(0, 0, 0, 1.0); /* NON-IE */
 }
 
 
@@ -266,6 +266,9 @@ figure.snip1105 h33 {
 }
 }
 @media only screen and (max-width: 1000px) {
+  figure.snip1105 {
+    height:10rem;
+  }
   figure.snip1105 h33 {
 
     top:2rem;
