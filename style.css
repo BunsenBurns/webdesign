@@ -98,7 +98,7 @@ header .overlay {
 
 .navbar.scrolled {
   background: rgb(68, 68, 68); /* IE */
-  background: rgba(0, 0, 0, 0.78); /* NON-IE */
+  background: rgb(0, 0, 0); /* NON-IE */
 }
 
 
