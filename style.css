@@ -1,11 +1,10 @@
 .headerPage {
   text-shadow: 0.2vh 0.2vh 0vh #2c2c2c;
   font-family: 'Roboto Condensed',sans-serif;
-  font-size: 10rem;
+  font-size: 5rem;
   font-weight: bolder;
-  text-transform:uppercase;
   position: relative;
-  top: -25rem;
+  top: -15rem;
   margin: auto; 
   text-align: center;
   color: white;
@@ -13,10 +12,11 @@
 .formHolder {
   width:75rem; 
   text-align: center;
-  background-image: linear-gradient(purple,rgb(100, 20, 100));
+  background-image: linear-gradient(rgb(104, 15, 104),rgb(82, 22, 82));
   padding-right: 4rem;
   padding-left: 4rem;
   padding-top: 0rem;
+  padding-bottom:4rem;
   margin-top: 0;
   margin:auto;
   border:0.25rem white solid;
@@ -27,7 +27,7 @@
 .buttonText {
     text-shadow: 0.2vh 0.2vh 0vh #2c2c2c;
     font-family: 'Roboto Condensed',sans-serif;
-    font-size: 4.0rem;
+    font-size: 2.0rem;
     font-weight: bolder;
     text-transform:uppercase;
 
