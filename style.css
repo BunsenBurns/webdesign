@@ -304,6 +304,18 @@ figure.snip1105 h33 {
     padding-top: 5rem; /* height of your footer */
    }
 }
+@media only screen and (max-width: 500px) {
+  .imgHeaderText {
+    top: 3rem;
+}
+  figure.snip1105 {
+    height:20rem;
+  }
+  figure.snip1105 h33 {
+    top:4rem;
+    font-size: 1rem;
+  }
+
 }
 /* @media only screen and (max-width: 1800px) {
   figure.snip1105 h33 { 

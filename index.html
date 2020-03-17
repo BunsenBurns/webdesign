@@ -23,155 +23,136 @@
 <!--Start Body-->
 <body style="background-color: rgb(39, 39, 39)">
 <!--Start Container-->
-<div class="container-fluid pt-0 mt-0">
- <!--Start First Row, Make it Sticky (NavBar) --> 
- <div class="fixed-top">
- <div class="phoneBackground"><nav class="navbar navbar-expand-lg navbar-dark mt-0 pt-4" style="z-index:10;">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-<div class="collapse navbar-collapse bg-black"    style="font-family: 'Roboto Condensed', sans-serif;"  id="navbarToggler">
-<ul class="navbar-nav mr-auto">
-<li class="nav-item px-2">
-<a class="nav-link txtLg" id="navlinkactive"      style="font-family: 'Roboto Condensed', sans-serif;" href="index.html">Home</a>
-</li>
-<li class="nav-item px-2">
-<a class="nav-link active txtLg" id="navlink"     style="font-family: 'Roboto Condensed', sans-serif;" href="portfolio.html">Portfolio</a>
-</li>
-<li class="nav-item px-2">
-<a class="nav-link txtLg" id="navlink"     style="font-family: 'Roboto Condensed', sans-serif;" href="contact.html">Contact Me</a>
-</li>
-</ul>
-</div>
 
-<span class="navbar-text pull-right txtLg"     style="font-family: 'Roboto Condensed', sans-serif;" id="navlink"><img style="height:5rem;" src="Logo.png">
-
-</span>
-
-</div>
-</nav></div>
-</div>
-<!--End First Row and NavBar-->
-
-<!--Begin Second Row,Jumbotron--> 
-  <!-- DEFINE MAIN CONTAINER FOR FOOTER AT BOTTOM --> <div class="main-container">
-<header style=" position: relative;
-height: 100vh;
-min-height: 25rem;
-width: 100%;
-overflow: hidden;">
-  <div class="overlay" style="  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.0;
-  z-index: 1;"></div>
-  <video style="  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);" playsinline="playsinline"  id="v-control" width="100%" autoplay="autoplay" loop muted controls="true" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="JumboVid1.mp4" type="video/mp4">
-      <source src="JumboVid1.webm" type="video/mp4">
-        <source src="JumboVid1.ogv" type="video/mp4">
-      <source src="JumboVid.mp4" type="video/mp4">
-  </video>
-<div class="row" style="height:100vh; min-height: 25rem; position: relative; z-index:2;">
-  <div class="col-6" style="background-color:;">
-    <span style="position: absolute; bottom:2.3vh; right:-8vh; color: purple; font-size:11vh; line-height:8.3vh; font-weight:bold;">MAKE<br>MARK</span>
+ <!--Start NavBar, Make it Sticky (NavBar) --> 
+  <div class="fixed-top">
+    <div class="phoneBackground"> <!--.phoneBackground makes it so on thin screens the navBar is opaque and moves content down accordingly. -->
+      <nav class="navbar navbar-expand-lg navbar-dark mt-0 pt-4" style="z-index:10;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-black"    style="font-family: 'Roboto Condensed', sans-serif;"  id="navbarToggler">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item px-2">
+             <a class="nav-link txtLg" id="navlinkactive"      style="font-family: 'Roboto Condensed', sans-serif;" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active txtLg" id="navlink"     style="font-family: 'Roboto Condensed', sans-serif;" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link txtLg" id="navlink"     style="font-family: 'Roboto Condensed', sans-serif;" href="contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+        <span class="navbar-text pull-right txtLg"     style="font-family: 'Roboto Condensed', sans-serif;" id="navlink"><img style="height:5rem;" src="Logo.png"></span>
+      </nav>
     </div>
-  <div class="col-6" style="background-color:;">
-  <span style="position: absolute; bottom:-5.8vh;left:9vh; color: white; font-size:23vh;">A</span>
   </div>
-</header>
+<!--End NavBar-->
+  <!-- DEFINE MAIN CONTAINER FOR FOOTER AT BOTTOM --> 
 
+  <div class="main-container">
+    <!--Begin Header/Jumbotron--> 
+    <header style="position: relative;
+                  height: 100vh;
+                  min-height: 25rem;
+                  width: 100%;
+                  overflow: hidden;">
+      <!--Background overlay currently commented out!
+      <div class="overlay" style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: black; opacity: 0.0; z-index: 1;"></div>
+       -->
+      <video style="position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    min-width: 100%;
+                    min-height: 100%;
+                    width: auto;
+                    height: auto;
+                    z-index: 0;
+                    -ms-transform: translateX(-50%) translateY(-50%);
+                    -moz-transform: translateX(-50%) translateY(-50%);
+                    -webkit-transform: translateX(-50%) translateY(-50%);
+                    transform: translateX(-50%) translateY(-50%);" playsinline="playsinline"  id="v-control" width="100%" autoplay="autoplay" loop muted controls="true" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="JumboVid1.mp4" type="video/mp4">
+        <source src="JumboVid1.webm" type="video/mp4">
+        <source src="JumboVid1.ogv" type="video/mp4">
+        <source src="JumboVid.mp4" type="video/mp4">
+      </video>
 
-
-
+      <div class="row" style="height:100vh; min-height: 25rem; position: relative; z-index:2;">
+        <div class="col-6" style="background-color:;">
+          <span style="position: absolute; bottom:2.3vh; right:-8vh; color: purple; font-size:11vh; line-height:8.3vh; font-weight:bold;">MAKE<br>MARK</span>
+        </div>
+        <div class="col-6" style="background-color:;">
+          <span style="position: absolute; bottom:-5.8vh;left:9vh; color: white; font-size:23vh;">A</span>
+        </div>
+    </header>
+    <!--End Header/Jumbotron-->
  
-  <!--Begin Third Row, Page Content-->
-
-    <div class="container-fluid">
-<div class="row" style="background-image:linear-gradient(black,rgb(22, 22, 22))">
-  <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
-    <div class="swing"><figure class="snip1105">
-                    <img id="hover-blur">
-                    <figcaption>
-                      <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="WHO I AM">Who I Am</h1>
-                     <h33 class="shadow-sm">Front-end web developer based in Mid-Michigan with over two years professional experience designing intranet websites for a Fortune 500 company on the Classic SharePoint platform.</h33>
-                    </figcaption>
-                  
-                  </figure></a>
-                    </figcaption>            
-                  </figure></div></div>
-                  <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
-                    <div class="swing"><figure class="snip1105">
-                                    <img id="hover-blur2">
-                                    <figcaption>
-                      <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="WHAT I DO">WHAT I DO</h1>
-                      <h33 class="shadow-sm">Using HTML5/CSS3/JavaScript, I develop fully-responsive, elegant sites under the Bootstrap 4 framework. From concept-to-completion, I will work with you to design a site from scratch tailored to your needs.</h33>
-
-                    </figcaption>
-                  
-                  </figure></a>
-                    </figcaption>            
-                  </figure></div></div>
-                  <div class="col-xl-4 col-lg-12 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
-                    <div class="swing"><figure class="snip1105">
-                                    <img id="hover-blur3">
-                                    <figcaption>
-                  <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="MAKE A MARK">MAKE A MARK</h1>
-                  <h33 class="shadow-sm">A small-business needs a website, a presence on the internet for perspective customers to search for and find. I like to think of it as making your mark on the digital world. <br>
-                                   <a href="http://tylerlopez.me/contact.html" class="footerButton" style="color:rgb(184, 39, 184);">Work with me</a> to make your mark today.</h33>
-                </figcaption>
-              
-              </figure></a>
-                </figcaption>            
-              </figure></div></div>
-  </div>
-
-  <footer>
-    <div class="main-footer">
-    <div class="row pb-3 pt-3" style="background-image: linear-gradient(rgb(22, 22, 22),rgb(0, 0, 0));">
-      <div class="col-12 justify-content-center text-center text-white"> 
-      
-        <h5 class="font-weight-bold text-uppercase" style="color: purple;"><span style=" padding:0.2rem;" class="rounded">Contact Me (Y/N)? <span class="blinking">|</span></span></h5>
-  
-        <ul class="list-unstyled">
-          <li>
-            <p>
-              <a href="mailto:tylopez@umich.edu" class="footerButton"><i class="fas fa-envelope mr-3"></i>tylopez@umich.edu</p></a>
-          </li>
-          <li>
-            <p>
-              <i class="fas fa-phone mr-3"></i>(989) 964-8982</p>
-          </li>
-        </ul>
-        <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/tylerlopez/" style="font-size:1.25rem;" class="px-1 footerButton"><i class="fab fa-linkedin-in"></i></a>
-        <!-- FaceBook -->
-        <a href="https://discord.gg/udgmdRn"  style="font-size:1.25rem;" class="px-1 footerButton"><i class="fab fa-discord"></i>
-  
-        </a></li>
-    
+    <!--Begin Page Content-->
+    <div class="row justify-content-center" style="background-image:linear-gradient(black,rgb(22, 22, 22))">
+      <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
+        <div class="swing">
+          <figure class="snip1105">
+            <img id="hover-blur">
+              <figcaption>
+                <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="WHO I AM">Who I Am</h1>
+                <h33 class="shadow-sm">Front-end web developer based in Mid-Michigan with over two years professional experience designing intranet websites for a Fortune 500 company on the Classic SharePoint platform.</h33>
+              </figcaption>
+          </figure>
+        </div>
       </div>
-  
-  
-  </div></div>
+      <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
+        <div class="swing">
+          <figure class="snip1105">
+            <img id="hover-blur2">
+              <figcaption>
+                <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="WHAT I DO">WHAT I DO</h1>
+                <h33 class="shadow-sm">Using HTML5/CSS3/JavaScript, I develop fully-responsive, elegant sites under the Bootstrap 4 framework. From concept-to-completion, I will work with you to design a site from scratch tailored to your needs.</h33>
+          </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-6 col-m-12 mx-0 mt-xl-3 mt-lg-3 mt-3 mb-0">
+        <div class="swing">
+          <figure class="snip1105">
+            <img id="hover-blur3">
+              <figcaption>
+                <h1 class="glitch-fade text glitch is-glitching imgHeaderText" data-text="MAKE A MARK">MAKE A MARK</h1>
+                <h33 class="shadow-sm">A small-business needs a website, a presence on the internet for perspective customers to search for and find. I like to think of it as making your mark on the digital world. <br>
+                <a href="http://tylerlopez.me/contact.html" class="footerButton" style="color:rgb(184, 39, 184);">Work with me</a> to make your mark today.</h33>
+              </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!--End Page Content-->
+    <!--Begin Footer-->
+    <footer>
+      <div class="main-footer">
+        <div class="row pb-3 pt-3" style="background-image: linear-gradient(rgb(22, 22, 22),rgb(0, 0, 0));">
+          <div class="col-12 justify-content-center text-center text-white"> 
+            <h5 class="font-weight-bold text-uppercase" style="color: purple;"><span style=" padding:0.2rem;" class="rounded">Contact Me (Y/N)? <span class="blinking">|</span></span></h5>
+              <ul class="list-unstyled">
+                <li>
+                  <p>
+                    <a href="mailto:tylopez@umich.edu" class="footerButton"><i class="fas fa-envelope mr-3"></i>tylopez@umich.edu</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-phone mr-3"></i>(989) 964-8982</p>
+                </li>
+              </ul>
+                <a href="https://www.linkedin.com/in/tylerlopez/" style="font-size:1.25rem;" class="px-1 footerButton"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://discord.gg/udgmdRn"  style="font-size:1.25rem;" class="px-1 footerButton"><i class="fab fa-discord"></i></a>
+          </div>
+        </div>
+      </div>
    </footer>
-
-
-<!--End Container Div Below-->
-</div></div>
+   <!--End Footer-->
+</div>
+<!--End Container Div-->
 <!--Import Remaining Scripts-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="vimeo.js"></script>
