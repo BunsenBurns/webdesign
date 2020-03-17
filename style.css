@@ -1,12 +1,33 @@
-
+.headerPage {
+  text-shadow: 0.2vh 0.2vh 0vh #2c2c2c;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-size: 10rem;
+  font-weight: bolder;
+  text-transform:uppercase;
+  position: relative;
+  top: -25rem;
+  margin: auto; 
+  text-align: center;
+  color: white;
+}
+.formHolder {
+  width:75rem; 
+  text-align: center;
+  background-image: linear-gradient(purple,rgb(100, 20, 100));
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 0rem;
+  margin-top: 0;
+  margin:auto;
+  border:0.25rem white solid;
+}
 /* Form */ .display-none {
   display: none;
 } 
 .buttonText {
     text-shadow: 0.2vh 0.2vh 0vh #2c2c2c;
     font-family: 'Roboto Condensed',sans-serif;
-
-    font-size: 2.5rem;
+    font-size: 4.0rem;
     font-weight: bolder;
     text-transform:uppercase;
 
@@ -209,6 +230,7 @@ figure.snip1105:hover h33 {
   transform:translate(0%, -10%);
 }
 
+
 @media only screen and (max-width: 1600px) {
   .imgHeaderText {
     font-size: 3rem;
@@ -223,6 +245,9 @@ figure.snip1105 h33 {
 figure.snip1105:hover .imgHeaderText {
   font-size: 2.0rem;
   transform:translate(0%, -5%);
+}
+.headerPage {
+top: -20rem;
 }
 }
 
@@ -262,7 +287,9 @@ figure.snip1105:hover .imgHeaderText {
 figure.snip1105 h33 {
   top:2.8rem;
   font-size: 0.7rem;
-
+}
+.formHolder {
+  width:65rem;
 }
 
 }
@@ -290,7 +317,9 @@ figure.snip1105 h33 {
   figure.snip1105 h33 {
     top:3rem;
     font-size: 0.7rem;
-  
+  }
+  .formHolder {
+    width:55rem;
   }
   .phoneBackground {
     background-color:black; 
@@ -298,11 +327,19 @@ figure.snip1105 h33 {
 
   }
   .buttonText {
-    font-size: 1rem;
+    font-size: 4rem;
   }
   .main-container {
     padding-top: 5rem; /* height of your footer */
    }
+   headerPage {
+     font-size: 8rem;
+   }
+}
+@media only screen and (max-width: 800px) {
+  .formHolder {
+    width:45rem;
+  }
 }
 @media only screen and (max-width: 500px) {
   .imgHeaderText {
