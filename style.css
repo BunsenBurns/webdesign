@@ -298,6 +298,9 @@ figure.snip1105 h33 {
   .buttonText {
     font-size: 1rem;
   }
+  .main-container {
+    padding-top: 5rem; /* height of your footer */
+   }
 }
 }
 /* @media only screen and (max-width: 1800px) {
