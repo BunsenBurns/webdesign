@@ -271,6 +271,9 @@ figure.snip1105 h33 {
     top:2rem;
     font-size: 0.8rem;
   }
+  figure.snip1105 {
+    height:10rem;
+  }
   .imgHeaderText {
     top: 0.5rem;
     font-size:2.5rem;
