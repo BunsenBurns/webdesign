@@ -99,6 +99,7 @@ header .overlay {
 .navbar.scrolled {
   background: rgb(68, 68, 68); /* IE */
   background: rgb(0, 0, 0); /* NON-IE */
+  border-bottom: 0.20rem solid purple;
 }
 
 
@@ -294,6 +295,7 @@ figure.snip1105 h33 {
   .phoneBackground {
     background-color:black; 
     opacity:1.0;
+
   }
   .buttonText {
     font-size: 1rem;
