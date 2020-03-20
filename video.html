@@ -1,3 +1,32 @@
-<video width="320" height="240" autoplay>
-    <source src="graphic.mp4" type="video/mp4">
-  </video>
+<head> <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></script>
+    
+</head>
+<body style="background-color:blue;">
+
+</body>
+<video id="video1" playsinline="playsinline" autoplay="autoplay" muted muted="muted" onended="run()">
+  <source src="graphic.webm"  type="video/mp4">
+  </object>
+Optional test to be displayed if the browser doesn't support the video tag (HTML 5)
+</video>
+
+
+<video id="video2" loop autoplay="autoplay" muted muted="muted">
+    <source src="graphicloop.webm"  type="video/mp4">
+
+  </object>
+Optional test to be displayed if the browser doesn't support the video tag (HTML 5)
+</video>
+
+
+<script> 
+$( "#video2" ).hide();
+function run(){
+   $( "#video1" ).hide();
+    $( "#video2" ).show();
+    document.getElementById("video2").play();
+   };
+</script> 

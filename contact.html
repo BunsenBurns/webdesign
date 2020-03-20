@@ -113,7 +113,29 @@ iframe {
  
          <!-- modify this form HTML and place wherever you want your form -->
          <div style="background-image: linear-gradient(rgb(0, 0, 0),rgb(34, 34, 34));; height:100%;">
-         <div class="headerPage"><span class="buttonText">CONTACT</span><div class="formHolder rounded py-5 text-center">
+         <div class="headerPage"><video id="video1" playsinline="playsinline" autoplay="autoplay" muted muted="muted" onended="run()">
+          <source src="graphic.webm"  type="video/mp4">
+          </object>
+        Optional test to be displayed if the browser doesn't support the video tag (HTML 5)
+        </video>
+        
+        
+        <video id="video2" loop autoplay="autoplay" muted muted="muted">
+            <source src="graphicloop.webm"  type="video/mp4">
+        
+          </object>
+        Optional test to be displayed if the browser doesn't support the video tag (HTML 5)
+        </video>
+        
+        
+        <script> 
+        $( "#video2" ).hide();
+        function run(){
+           $( "#video1" ).hide();
+            $( "#video2" ).show();
+            document.getElementById("video2").play();
+           };
+        </script> <div class="formHolder rounded py-5 text-center">
 
             <form class="form-inline">
               <div class="row-12" style="width:75rem;">
