@@ -1,5 +1,5 @@
 <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c148 79.163765, 2019/01/24-18:11:46        " rdfhash="D35BBC31D0126D194756519ADA2F0E0C" merged="0">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c148 79.163765, 2019/01/24-18:11:46        " rdfhash="F141F448A4B4F816983C2A34B6702366" merged="0">
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about=""
     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
@@ -10,19 +10,16 @@
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
     xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmpMM:InstanceID="xmp.iid:6c78d4c6-4ba1-be42-9a7e-0c49fa90da32"
+   xmpMM:InstanceID="xmp.iid:4d668693-6676-8c40-bd95-d2a7dcc07efc"
    xmpMM:DocumentID="75b30a2e-7af7-c150-0cd0-b85700000043"
-   xmpMM:OriginalDocumentID="xmp.did:9d55aa78-fb3d-c040-a394-82ff7034b58f"
-   xmp:MetadataDate="2020-03-24T18:13:20-04:00"
-   xmp:ModifyDate="2020-03-24T18:13:20-04:00"
+   xmpMM:OriginalDocumentID="xmp.did:8f37b5b5-65bb-b540-b24e-d1cd61ea82bc"
+   xmp:MetadataDate="2020-03-24T18:19:27-04:00"
+   xmp:ModifyDate="2020-03-24T18:19:27-04:00"
    xmp:CreatorTool="Adobe Premiere Pro 2019.1 (Windows)"
    xmp:CreateDate="2020-03-20T15:55:57-04:00"
    xmpDM:videoFrameRate="10.000000"
    xmpDM:videoFieldOrder="Progressive"
    xmpDM:videoPixelAspectRatio="1/1"
-   xmpDM:audioSampleRate="48000"
-   xmpDM:audioSampleType="Compressed"
-   xmpDM:audioChannelType="Stereo"
    xmpDM:startTimeScale="10"
    xmpDM:startTimeSampleSize="1"
    dc:format="WebM">
@@ -30,31 +27,38 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="3dfdc248-9fdf-f7e0-2d37-128700000070"
-      stEvt:when="2020-03-24T18:13:20-04:00"
+      stEvt:instanceID="a7121ece-4579-58d1-4c46-055200000070"
+      stEvt:when="2020-03-24T18:19:27-04:00"
       stEvt:softwareAgent="Adobe Premiere Pro 2019.1 (Windows)"
       stEvt:changed="/"/>
      <rdf:li
       stEvt:action="created"
-      stEvt:instanceID="xmp.iid:59de98fb-dcc1-5d4c-a844-52ad6a495312"
-      stEvt:when="2020-03-24T18:13:17-04:00"
+      stEvt:instanceID="xmp.iid:23834340-825b-774d-8fd6-3358b19be11e"
+      stEvt:when="2020-03-24T18:19:25-04:00"
       stEvt:softwareAgent="Adobe Premiere Pro 2019.1 (Windows)"/>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:15f14d57-fa32-d642-901d-3d4176e0763e"
-      stEvt:when="2020-03-24T18:13:20-04:00"
+      stEvt:instanceID="xmp.iid:2ed2da4d-40db-1443-9d54-f307403580ad"
+      stEvt:when="2020-03-24T18:19:27-04:00"
       stEvt:softwareAgent="Adobe Premiere Pro 2019.1 (Windows)"
       stEvt:changed="/"/>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:6c78d4c6-4ba1-be42-9a7e-0c49fa90da32"
-      stEvt:when="2020-03-24T18:13:20-04:00"
+      stEvt:instanceID="xmp.iid:4d668693-6676-8c40-bd95-d2a7dcc07efc"
+      stEvt:when="2020-03-24T18:19:27-04:00"
       stEvt:softwareAgent="Adobe Premiere Pro 2019.1 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
    </xmpMM:History>
    <xmpMM:Ingredients>
     <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="169191cc-627d-a405-3299-36a800000062"
+      stRef:documentID="820d0a61-fd9c-b7c1-ccda-b57100000035"
+      stRef:fromPart="time:0"
+      stRef:toPart="time:76281004800f254016000000d16951334400f254016000000"
+      stRef:filePath="7.png"
+      stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="169191cc-627d-a405-3299-36a800000062"
       stRef:documentID="820d0a61-fd9c-b7c1-ccda-b57100000035"
@@ -66,49 +70,28 @@
       stRef:instanceID="4324ce57-f9be-10c1-eeeb-8bf200000062"
       stRef:documentID="d92afdb9-e75e-2ca9-eef8-014b00000035"
       stRef:fromPart="time:0"
-      stRef:toPart="time:42378336000f254016000000d25427001600f254016000000"
+      stRef:toPart="time:33902668800f254016000000d16951334400f254016000000"
       stRef:filePath="6.png"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="4324ce57-f9be-10c1-eeeb-8bf200000062"
       stRef:documentID="d92afdb9-e75e-2ca9-eef8-014b00000035"
       stRef:fromPart="time:0"
-      stRef:toPart="time:67805337600f254016000000d25427001600f254016000000"
+      stRef:toPart="time:50854003200f254016000000d25427001600f254016000000"
+      stRef:filePath="6.png"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="4324ce57-f9be-10c1-eeeb-8bf200000062"
+      stRef:documentID="d92afdb9-e75e-2ca9-eef8-014b00000035"
+      stRef:fromPart="time:0"
+      stRef:toPart="time:8475667200f254016000000d25427001600f254016000000"
       stRef:filePath="6.png"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="596d0507-e94e-3a96-fae5-c33d00000064"
       stRef:documentID="7d417d65-87aa-4f78-e591-3e1d00000037"
       stRef:fromPart="time:0"
-      stRef:toPart="time:237318681600f254016000000d59329670400f254016000000"
-      stRef:filePath="12.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="596d0507-e94e-3a96-fae5-c33d00000064"
-      stRef:documentID="7d417d65-87aa-4f78-e591-3e1d00000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:347502355200f254016000000d25427001600f254016000000"
-      stRef:filePath="12.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="596d0507-e94e-3a96-fae5-c33d00000064"
-      stRef:documentID="7d417d65-87aa-4f78-e591-3e1d00000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:432259027200f254016000000d25427001600f254016000000"
-      stRef:filePath="12.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="596d0507-e94e-3a96-fae5-c33d00000064"
-      stRef:documentID="7d417d65-87aa-4f78-e591-3e1d00000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:517015699200f254016000000d25427001600f254016000000"
-      stRef:filePath="12.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="596d0507-e94e-3a96-fae5-c33d00000064"
-      stRef:documentID="7d417d65-87aa-4f78-e591-3e1d00000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:584821036800f254016000000d16951334400f254016000000"
+      stRef:toPart="time:237318681600f254016000000d16951334400f254016000000"
       stRef:filePath="12.png"
       stRef:maskMarkers="None"/>
      <rdf:li
@@ -136,21 +119,14 @@
       stRef:instanceID="5bbd0e75-8743-11ab-28e5-ba7f00000062"
       stRef:documentID="eac334af-c5b2-e66a-1295-a4cf00000035"
       stRef:fromPart="time:0"
-      stRef:toPart="time:372929356800f254016000000d25427001600f254016000000"
+      stRef:toPart="time:254270016000f254016000000d16951334400f254016000000"
       stRef:filePath="9.png"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="5bbd0e75-8743-11ab-28e5-ba7f00000062"
       stRef:documentID="eac334af-c5b2-e66a-1295-a4cf00000035"
       stRef:fromPart="time:0"
-      stRef:toPart="time:457686028800f254016000000d25427001600f254016000000"
-      stRef:filePath="9.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="5bbd0e75-8743-11ab-28e5-ba7f00000062"
-      stRef:documentID="eac334af-c5b2-e66a-1295-a4cf00000035"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:542442700800f254016000000d25427001600f254016000000"
+      stRef:toPart="time:288172684800f254016000000d8475667200f254016000000"
       stRef:filePath="9.png"
       stRef:maskMarkers="None"/>
      <rdf:li
@@ -158,27 +134,6 @@
       stRef:documentID="c1d77a7e-20c8-2cfc-b65b-f0cf00000037"
       stRef:fromPart="time:0"
       stRef:toPart="time:296648352000f254016000000d16951334400f254016000000"
-      stRef:filePath="11.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="740bd4eb-c238-8a2d-78e8-905f00000064"
-      stRef:documentID="c1d77a7e-20c8-2cfc-b65b-f0cf00000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:330551020800f254016000000d16951334400f254016000000"
-      stRef:filePath="11.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="740bd4eb-c238-8a2d-78e8-905f00000064"
-      stRef:documentID="c1d77a7e-20c8-2cfc-b65b-f0cf00000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:415307692800f254016000000d16951334400f254016000000"
-      stRef:filePath="11.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="740bd4eb-c238-8a2d-78e8-905f00000064"
-      stRef:documentID="c1d77a7e-20c8-2cfc-b65b-f0cf00000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:500064364800f254016000000d16951334400f254016000000"
       stRef:filePath="11.png"
       stRef:maskMarkers="None"/>
      <rdf:li
@@ -213,28 +168,14 @@
       stRef:instanceID="9e01b8a1-05e4-7441-f0b8-186900000064"
       stRef:documentID="fa98bbf1-a555-6057-cdad-adc100000037"
       stRef:fromPart="time:0"
+      stRef:toPart="time:271221350400f254016000000d16951334400f254016000000"
+      stRef:filePath="10.png"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="9e01b8a1-05e4-7441-f0b8-186900000064"
+      stRef:documentID="fa98bbf1-a555-6057-cdad-adc100000037"
+      stRef:fromPart="time:0"
       stRef:toPart="time:313599686400f254016000000d16951334400f254016000000"
-      stRef:filePath="10.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="9e01b8a1-05e4-7441-f0b8-186900000064"
-      stRef:documentID="fa98bbf1-a555-6057-cdad-adc100000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:398356358400f254016000000d16951334400f254016000000"
-      stRef:filePath="10.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="9e01b8a1-05e4-7441-f0b8-186900000064"
-      stRef:documentID="fa98bbf1-a555-6057-cdad-adc100000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:483113030400f254016000000d16951334400f254016000000"
-      stRef:filePath="10.png"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="9e01b8a1-05e4-7441-f0b8-186900000064"
-      stRef:documentID="fa98bbf1-a555-6057-cdad-adc100000037"
-      stRef:fromPart="time:0"
-      stRef:toPart="time:567869702400f254016000000d16951334400f254016000000"
       stRef:filePath="10.png"
       stRef:maskMarkers="None"/>
      <rdf:li
@@ -422,9 +363,9 @@
     </rdf:Bag>
    </xmpMM:Pantry>
    <xmpMM:DerivedFrom
-    stRef:instanceID="xmp.iid:59de98fb-dcc1-5d4c-a844-52ad6a495312"
-    stRef:documentID="xmp.did:59de98fb-dcc1-5d4c-a844-52ad6a495312"
-    stRef:originalDocumentID="xmp.did:59de98fb-dcc1-5d4c-a844-52ad6a495312"/>
+    stRef:instanceID="xmp.iid:23834340-825b-774d-8fd6-3358b19be11e"
+    stRef:documentID="xmp.did:23834340-825b-774d-8fd6-3358b19be11e"
+    stRef:originalDocumentID="xmp.did:23834340-825b-774d-8fd6-3358b19be11e"/>
    <creatorAtom:windowsAtom
     creatorAtom:extension=".prproj"
     creatorAtom:invocationFlags="/L"
@@ -439,7 +380,7 @@
     stDim:h="400"
     stDim:unit="pixel"/>
    <xmpDM:duration
-    xmpDM:value="23"
+    xmpDM:value="12"
     xmpDM:scale="1/10"/>
    <xmpDM:startTimecode
     xmpDM:timeFormat="Frames"
