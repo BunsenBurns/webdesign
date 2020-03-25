@@ -109,15 +109,12 @@ iframe {
 <div style="background-image: linear-gradient(rgb(0, 0, 0),rgb(34, 34, 34));; height:100%;">
 <div class="headerPage">
 <div class="videos">
-<video id="video1"  style="height: 15rem;" autoplay muted playsinline  poster="Placeholder.png" onended="run()">
-  <source src="graphic.webm"  type="video/mp4">
-Optional test to be displayed if the browser doesn't support the video tag (HTML 5)
-</video>
-<video id="video2" style="height: 15rem;" loop muted playsinline  poster="Placeholder.png">
-    <source src="graphicloop.webm"  type="video/mp4">
-Optional test to be displayed if the browser doesn't support the video tag (HTML 5)
-</video>
+  <div class="delay" style="position:relative;">
+  <img class="destroy"  src="graphic.gif">
+  
 </div>
+
+
 <div id="formHolder">CONTACT</div>
 </div>
 
@@ -197,15 +194,10 @@ Optional test to be displayed if the browser doesn't support the video tag (HTML
   
 </script>
 <script> 
-  $( "#video2" ).hide();
-  function run(){
-     $( "#video1" ).hide();
-      $( "#video2" ).show();
-      document.getElementById("video2").play();
-     };
-     function hide(){
-  video.removeAttribute( 'controls' );
-  }
+setTimeout(function(){
+$('<img style="position:absolute; left:50%; margin-left: -200px; top: 50%; margin-top: -200px; width:400px;" src="graphicloop.gif">').appendTo($('.delay'));
+
+}, 1500)
   </script> 
 <!-- End Body after Defining Form -->
 </body>
