@@ -110,8 +110,7 @@ iframe {
 <div class="headerPage">
 <div class="videos">
   <div class="delay" style="position:relative;">
-  <img class="destroy"  src="graphic.gif">
-  
+  <img src="Placeholder.png">
 </div>
 
 
@@ -193,11 +192,14 @@ iframe {
 });
   
 </script>
-<script> 
+<script>
 setTimeout(function(){
-$('<img style="position:absolute; left:50%; margin-left: -200px; top: 50%; margin-top: -200px; width:400px;" src="graphicloop.gif">').appendTo($('.delay'));
+  $('<img style="position:absolute; left:50%; margin-left: -200px; top: 50%; margin-top: -200px; width:400px; height: 400px;" src="graphic.gif">').appendTo($('.delay'));
+}, 1000) 
+setTimeout(function(){
+$('<img style="position:absolute; left:50%; margin-left: -200px; top: 50%; margin-top: -200px; width:400px; height: 400px;" src="graphicloop.gif">').appendTo($('.delay'));
 
-}, 1500)
+}, 2500)
   </script> 
 <!-- End Body after Defining Form -->
 </body>
