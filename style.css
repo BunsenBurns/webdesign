@@ -7,13 +7,10 @@
   text-align: center;
   color: white;
 }
-.videos {
-  display: inline-block;
-  width:100%;
-}
+
 #formHolder {
   display: inline-block;
-  width:50%;
+  width:75%;
   background-color:black;
   border: 0.05rem white solid;
 
