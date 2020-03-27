@@ -114,18 +114,46 @@ iframe {
 </div>
 
 <div id="formHolder">
-  <h1 class="my-2" style="font-size:2.5rem;font-family: 'Roboto Condensed',sans-serif; ">WHO I AM</h1>
-<div class="row mx-0 my-2 pb-2">
-  <div class="col-md-8 col-sm-12" style="text-align:left;">
-   <h33>Test</h33> 
+
+<div class="row mx-0 mt-2">
+  <div class="col-md-8 col-sm-12" style="text-align:center;">
+    <h1 class="my-2" style="font-size:2.5rem;font-family: 'Roboto Condensed',sans-serif; ">WHO I AM</h1>
+   <h33>I love learning.<br><br>
+
+   While I self-identify as a fairly rookie web developer, I have over two years professional experience developing intranet websites on the classic SharePoint platform.
+     My specialities are the design of static websites leveraging HTML/CSS/JavaScript on the Bootstrap 4 framework.<br><br>
+     
+     Whether it's an artist's portfolio or a site for a sandwich shop, I'm here for you to see your design become reality and to aid you in making your mark on the digital world.
+    
+    
+    </h33> 
   </div>
-  <div class="col-md-4 col-sm-12 pr-4 my-auto">
+  <div class="col-md-4 col-sm-12 p-4">
     <img style="width:100%; height:auto;
     border:0.1rem rgb(34, 34, 34) solid; " src="me.jpg">
   </div>
 </div>
 </div>
+<div id="formHolder" class="m-4">
+  <div class="mt-3 mb-3 container-fluid">
+    <form action="https://formspree.io/your@email.com" method="POST">
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="buttonText footerButton">Name</label>
+        <input required name="name" type="text" class="form-control" id="exampleTextInput" aria-describedby="emailHelp" placeholder="Enter full name">      
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="buttonText footerButton">E-mail</label>
+        <input required name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 
+      </div>
+      <div class="form-group">
+        <label for="exampleTextarea" class="buttonText footerButton">Message</label>
+        <textarea required name="message" class="form-control" id="exampleTextarea" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="cursor:pointer">Submit</button>
+    </form>
+  </div>
+</div>
 </div>
 
 
@@ -174,34 +202,9 @@ iframe {
 
 
 <script>
- $(document).ready(function() {
-  $('#contact-form').submit(function(e) {
-      var name = $('#inputName')
-      var email = $('#inputEmail')
-      var message = $('#inputMessage')
-    
-      if(name.val() == "" || email.val() == "" || message.val() == "") {
-        $('.submit-fail').fadeToggle(400);
-        return false;
-      }
-      else {
-        $.ajax({
-          method: 'POST',
-          url: '//formspree.io/tylopez@umich.edu',
-          data: $('#contact-form').serialize(),
-          datatype: 'json'
-        });
-        e.preventDefault();
-        $(this).get(0).reset();
-        $('.submit-success').fadeToggle(400);
-      }
-    });
-  
-  $('.submit-fail, .submit-success').click(function() {
-    $(this).hide();
-  })
-});
-  
+$(document).ready(function(){
+ $('#contact_form').validate();
+})
 </script>
 <script>
 setTimeout(function(){
